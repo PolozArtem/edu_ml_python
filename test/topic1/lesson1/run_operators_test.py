@@ -9,10 +9,10 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(operators_task1() == 10)
 
     def test_operators_task2(self):
-        self.assertTrue(operators_task2())
+        self.assertTrue(operators_task2() == 10)
 
     def test_operators_task3(self):
-        self.assertTrue(operators_task3())
+        self.assertTrue(operators_task3() == 10)
 
 
 if __name__ == '__main__':
